@@ -1,4 +1,6 @@
-# "Do I Look Fat in This Code?" - BMI Calculator 
+# "Do I Look Fat in This Code?" - BMI Calculator <br><br>
+
+<img src="https://github.com/YugamPatel/BMI-Calculator/blob/main/BMI-Calculator.png"></img><br><br>
 
 ## Overview 🌟
 
