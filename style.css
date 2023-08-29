@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #44b874;
+  font-family: "Helvetica", sans-serif;
+}
+
+.wrapper {
+  max-width: 600px;
+  /* height: 350px ; */
+  background-color: #ffffff;
+  margin: 10% auto;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 150px rgb(4, 209, 245)
+}
+
+h1 {
+  text-align: center;
+  color: #151515;
+}
+
+.field {
+  margin: 20px 0;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #1b31b0;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #580880;
+}
+
+#bmiOutput {
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.copyright {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  font-size: 16px;
+  color: #f2f2f2;
+  width: 100%;
+  background-color: #333;
+  text-align: center;
+}
+
+.fa-heart {
+  font-size: 20px;
+  color: #fd0606;
+  animation: beat 1s infinite alternate; /* 1s duration, infinite repetition, and alternate direction */
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1); /* start at normal size */
+  }
+  50% {
+    transform: scale(1.1); /* scale up a bit */
+  }
+  100% {
+    transform: scale(1); /* return to normal size */
+  }
+}
+
